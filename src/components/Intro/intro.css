@@ -1,0 +1,309 @@
+#intro {
+    /* height:calc(100 vh - 5rem); */
+    width: 100vw; 
+    margin-top: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: rgb(50,50,50);
+    /* border-radius: 15px; */
+    /* margin-bottom: 10rem; */
+    display: flex auto;
+    align-items: center;
+    justify-content: center;
+    /* align-self: start; */
+    margin-bottom: 10rem;
+}
+
+
+
+.introText1 {
+    font-size: 40px;
+    color:rgb(80, 213, 249);
+}  
+
+.introPara {
+    font-weight: 100;
+}
+
+.hellobtn {   
+    padding: 0.5rem 2.5rem;
+    background:white ;
+    border: 3rem;
+    border-radius: 2rem;
+    font-size: 1 rem;
+    margin: 3rem 0;
+    width: 10rem;
+}
+
+.hellobtn:hover {
+    box-shadow: 0 0 1rem rgb(133, 132, 132); 
+}
+
+.myimage {
+    /* position:absolute; */
+     /* top: -4rem; */
+    /*right:2rem; */
+    /* object-fit: cover; */
+    /*height: 50vh;  */   
+    scale: 0.5;
+    border-radius: 350vw;
+    
+}
+
+.introSect {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+
+.introContent {
+    height: 2.5vh;
+    /*width: 100vw; */
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.profileImg{
+    display: flex auto;
+
+}
+.myimage:hover{
+    box-shadow: 0 0 2rem rgba(116, 112, 112, 1); 
+    
+}
+
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family:  Consolas;
+}
+
+.introName {
+    color:rgb(233, 243, 100);
+}
+
+
+.introPara {
+    font-size: x-large;
+    font-weight: 300;
+    /* letter-spacing: 1px; */
+
+}
+
+.btn {
+    /*background:  white;*/
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: blue;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+
+}
+
+
+.headings{
+    /* margin-left: 1rem; */
+    /* background: rgb(75,75,75); */
+    border-radius: 10px;
+    /* align-content: center; */
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid;
+    border-color: white;
+    font-size: 2rem;
+}
+
+ .edu, .work {
+
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background: rgb(50,50,50);
+    border-radius: 1rem;
+}  
+*/
+
+
+.eduText{
+    font-size: 1.5rem;
+    font-weight: 200;
+    /* margin: auto; */
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    color:white;
+} 
+
+.workText{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    color:white;
+}
+
+.workText>h4 {
+    font-size: 1.2rem;
+}
+.workText>p {
+    /* word-spacing: 0.1rem; */
+    z-index: index;
+    font-size: 1.2rem;
+}
+.worknEduImg{
+    height: 100px;
+    width: 100px;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 15px;
+}
+
+
+/* .purdue, .sggs {
+    display:flex; 
+    flex-direction:row;
+    align-items: left;
+    margin: 0 2rem 0 0;
+}  */
+
+.edunworkbar{
+    display:flex;
+    flex-direction: row;
+    background: rgb(75,75,75);
+    border-radius: 15px;
+    align-items: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-content: center; 
+}
+
+.edunworkbar:hover{
+    box-shadow: 0 0 1rem rgba(209, 203, 203, 0.2); 
+}
+
+/*experience*/
+/* .education  {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    background: rgb(75,75,75);
+    border-radius: 15px ;
+    width: fit-content;
+    float: right;
+
+}  */
+
+.eduimage{
+
+    /* background: rgb(75,75,75); */
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    
+    
+}
+
+
+.edurow, .exprow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Professional{
+    background: rgb(50,50,50);
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 15px;
+}
+
+.eduExpHead {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color:rgb(80, 213, 249);
+    
+}
+
+/* @media screen and (max-width:720px){
+    .myimage{
+        border-radius: 200%;
+    }
+} */
+
+
+@media screen and (max-width:1048px)
+{
+    .myimage{
+        height:100vw;
+        width: 100vw;
+    }
+    .introContent{
+        margin-top: 45vw ;
+        font-size: 10vw ;
+    }
+    .introText1,.eduExpHead{
+        font-size: 8vw;
+    }  
+    .worknEduImg{
+        height: 15vw;
+        width: 15vw;
+    }
+    /* .workText>h4, .eduText>h4{ */
+    .workText{
+        font-size: 3vw;
+    }
+
+    .workText>p, .workText>h4{
+        font-size: 3vw;
+    }
+    
+    .edurow,.exprow{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .introSect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40vw;
+    }
+    .introContent>span, .introContent>p{
+        font-size: 5vw;
+    }
+    .Professional{
+        flex-direction: column;
+        display: flex;
+    }
+    /* .education{
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    } */
+    .headings{
+        justify-content: center;
+        font-size: 5vw;
+    }
+    
+
+}
+

@@ -1,0 +1,188 @@
+#project{
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+    background: rgb(50,50,50);
+    margin-bottom: 10rem;
+}
+
+.projectsTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+    color:rgb(80, 213, 249);
+}
+
+
+/* .projectDiv{
+     background:rgb(199, 6, 6); 
+} */
+
+.projectsDesc {
+    /* font-weight: 300;
+    font-size: 1rem; */
+    max-width: 45rem;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+
+/* .projectImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    max-width: 65rem;
+    flex-wrap: wrap; 
+} */
+
+.projectImg {
+    object-fit: cover; 
+    /* width: 20rem; */
+    height:20rem ;
+    margin: 0.5rem;
+    width:100%;
+    position: absolute;
+    border-radius: 15px;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+/* .projectBtn{
+    padding: 0.5rem 2.5rem;
+    background:white ;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1 rem;
+    margin: 3rem 0;
+} */
+
+.skilltext{
+    font-size: x-large;
+    font-weight: 300;
+}
+
+@media screen and (max-width:1048px) {
+    .projectImg {
+        height:50vw;
+    }    
+
+    .projectExpl {
+        width: 100%; /* Adjust the width for smaller screens */
+        margin: 1rem 0; /* Adjust margins for smaller screens */
+      }
+      .projectsTitle{
+        font-size: 8vw;
+      }
+}
+
+.projectExpl{
+    background: rgb(75,75,75);
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 15px;
+}
+
+
+
+
+/* flipcards  */
+
+.projectCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+  }
+  
+  .flip-card {
+    background-color: transparent;
+    width: 20rem;
+    height: 20rem;
+    perspective: 1000px;
+    margin: 0.5rem;
+  }
+  
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style:preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("/src/assets/projectbg.jpg");
+    background-size: cover;
+    filter: blur(1px); */
+    color:black;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-weight: 200rem;
+  }
+  
+
+  .flip-card-front>h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    align-items: center;
+    /*filter: none; */
+    /* font-size: x-large;*/
+    font-weight: 200rem; 
+  }
+
+  .flip-card-back {
+    transform: rotateY(180deg);
+    background: rgb(75, 75, 75);
+    border-radius: 15px;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 300;
+  }
+
+ 
+  .Project1, .Project2 {
+    height: 10rem;
+    width:10rem;
+  }
+
+
+  .flip-card-front img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
