@@ -9,42 +9,42 @@ import ToolsImg from '../../assets/tools.png';
 const Skills = () => {
     return (
         <section id='skills'>
-        <span className="skillTitle">Connecting Future</span>
+        <span className="skillTitle"> Technical Prowess </span>
         <span className="skillDesc">I am a creative and passionate Software Developer who enjoys leveraging technologies to deliver innovative solutions!</span>
         <div className="skillBars">
             <div className="skillBar">
                     <img src={SoftwareEngImg} alt="SoftwareEngImg" className="skillBarImg" />
                     <div className="skillBarText">
                         <h4>Software Engineering</h4>
-                        <p>SQL, PostgreSQL, Java, python, C. </p>
+                        <p>Java, python, C, SQL, MySQL, PostgreSQL, Oracle, MongoDB. </p>
                     </div>
             </div>
             <div className="skillBar">
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h4>Web Designing</h4>
-                        <p>HTML, CSS, Javascript, Angular JS, React JS, PHP, Java Spring Boot</p>
+                        <p>HTML, CSS, Javascript, Angular JS, React JS, JSPsych, Email JS, PHP, Java, Spring Boot, Bootstrap.</p>
                     </div>
             </div>
             <div className="skillBar">
                     <img src={DataScienceDesign} alt="DataScienceDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h4>Data Science </h4>
-                        <p>Machine Learning using python, Eclipse, Anaconda, Jupyter</p>
+                        <p>Machine Learning, AI, sklearn, SciPy, matplotlib, seaborn, NumPy, pandas.</p>
                     </div>
             </div>
             <div className="skillBar">
                     <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h4>UI/UX Design</h4>
-                        <p> Figma, Adobe XD</p>
+                        <p> Figma, Adobe XD, Wireframing, Prototyping, User Research, Visual Communication.</p>
                     </div>
             </div>
             <div className="skillBar">
                     <img src={ToolsImg} alt="UIDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h4>Tools</h4>
-                        <p> Visual Studio, GITHub </p>
+                        <p> Visual Studio Code, GITHub, JIRA, Spring Tool Suite, BitBucket, SAP BW. </p>
                     </div>
             </div>
         </div>

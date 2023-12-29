@@ -27,7 +27,6 @@
     font-size: 1.5rem; */
     max-width: 51rem;
     padding: 0 2rem;
-
     font-size: x-large;
     font-weight: 300;
 }
@@ -120,7 +119,7 @@
     }
 
     .skillBars{
-        max-width: 70%;
+        max-width: 100%;
     }
 
    

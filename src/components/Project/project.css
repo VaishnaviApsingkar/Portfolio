@@ -7,7 +7,7 @@
     justify-content: center;
     margin: 0 auto;
     text-align: center;
-    padding: 0 1rem;
+    /*padding: 0 1rem;*/
     background: rgb(50,50,50);
     margin-bottom: 10rem;
 }
@@ -17,6 +17,7 @@
     font-size: 3rem;
     color:rgb(80, 213, 249);
 }
+
 
 
 /* .projectDiv{

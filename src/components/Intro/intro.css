@@ -37,7 +37,7 @@
 
 .hellobtn:hover {
     box-shadow: 0 0 1rem rgb(133, 132, 132); 
-}
+} 
 
 .myimage {
     /* position:absolute; */
@@ -133,7 +133,7 @@
     background: rgb(50,50,50);
     border-radius: 1rem;
 }  
-*/
+
 
 
 .eduText{

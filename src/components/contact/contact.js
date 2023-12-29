@@ -25,12 +25,15 @@ const Contact = () => {
         <section id="contactPage">
             <div id="contact">
                 <h1 className='contactPageTitle'>Contact Me</h1>
-                <span className='contactDesc'>Please fill out the form below to reach out.</span>
+                <span className='contactDesc'>
+                    Please fill out the form below to reach out.
+                </span>
+                <br/>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder='Your Name' name='your_name'/>
-                    <input type="email"className='email' placeholder='Your Email' name='your_email'/>
-                    <textarea name="message" className="msg"  rows="5" placeholder='Your Message'></textarea>
-                    <button type='submit' value="Send" className="submitBtn">Submit</button>
+                    <input type="text" className="name" placeholder='Your Name'  name='your_name' required />
+                    <input type="email"className='email' placeholder='Your Email' name='your_email' required/>
+                    <textarea name="message" className="msg"  rows="5" placeholder='Your Message' required></textarea>
+                    <button type='submit' value="Send" className="submitBtn"> Submit </button>
                 </form>    
                     <div className='Links'>
                         <a href='https://github.com/VaishnaviApsingkar'><img src={GithubIcon}  alt="github" className="link" /></a>

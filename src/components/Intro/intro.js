@@ -20,14 +20,13 @@ const Intro = () => {
             <div className="introContent">
                 <span className="hello">Welcome!</span>
                 <span className="introText">I'm <span className="introText1">Vaishnavi</span><br/></span>
-                <span className='introText1'>I bring creativity to the digital realm.</span>
-                {/* <p className="introPara">I am Master's student at Purdue School of Science, IUPUI</p> */}
+                <span className='introText1'>I bring creativity to the digital realm!</span>
                 
-                <p className='introPara'><br/>Passionate software engineer with a knack for problem <br/>solving  and love for clean, efficient code.</p>
-                <p className='introPara'>Currently pursuing masters in Computer Science from<br/> Purdue School of Science, IUPUI.</p>
+                <p className='introPara'><br/>Passionate software engineer with a knack for problem <br/>solving  and a love for clean, efficient code.</p>
+                <p className='introPara'>Currently pursuing masters in Computer Science from <br/> Purdue School of Science, IUPUI.</p>
 
                 {/* <Link><button className="btn"><img src={btnImg} alt="Hire" className='btnImg'/>Hire Me</button></Link> */}
-                <Link><button className="hellobtn"><a href="mailto:vapsing@iu.edu">Say Hello</a></button></Link>
+                <button className="hellobtn"><a  href="mailto:vaishnaviapsingkar@gmail.com">Say Hello</a></button>
             </div>
             
         </div> 

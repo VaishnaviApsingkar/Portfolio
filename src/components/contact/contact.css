@@ -19,10 +19,11 @@
 }
 
 .contactDesc{
-    padding: 1rem;
-    /* font-size: medium;
+    /* padding: 1rem;
+    font-size: medium;
     font-weight: 300; */
-
+    
+    padding: 0 0 0 0; 
     font-size: x-large;
     font-weight: 300;
 }
